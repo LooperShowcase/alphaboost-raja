@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(to left, pink, white, black);
+}
+
+p {
+  font-size: 50px;
+  color: darkcyan;
+}
+h1 {
+  font-size: 50px;
+}
+ol {
+  font-size: 50px;
+}
+h2 {
+  font: size 50px;
+}
