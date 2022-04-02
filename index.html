@@ -5,6 +5,18 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="signup.html">sign up</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li style="float:right"><a class="active" href="#about">About</a></li>
+    </ul>
+    <button type="button" onclick="changebg()" >
+      press me to change background-black
+    </button>
+    <button type="button" onclick="changebg1()" >
+      press me to change background-red
+    </button>
     <center>
       <h1>tiktok</h1>
       <img
@@ -27,11 +39,14 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-    <h2>the best three famous in tiktok</h2>
-    <ol>
-      <li>charli damelio</li>
-      <li>adeson rae</li>
-      <li>khaby lame</li>
-    </ol>
+    <script>
+      function changebg(){
+        document.body.style.background= "black";
+      }
+      function changebg1(){
+        document.body.style.background= "red";
+      }
+     
+    </script>
   </body>
 </html>
