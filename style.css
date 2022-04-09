@@ -16,10 +16,11 @@ h2 {
   font: size 50px;
 }
 
-div, span {
+div,
+span {
   display: inline-block;
 }
-h1{
+h1 {
   font-size: 40px;
 }
 ul {
@@ -48,4 +49,21 @@ li a:hover:not(.active) {
 
 .active {
   background-color: rgb(0, 247, 255);
+}
+
+#myfloat {
+  float: right;
+}
+
+#profilePic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+footer {
+  text-align: center;
+  background-color: aqua;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
 }
